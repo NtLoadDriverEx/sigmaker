@@ -1,0 +1,16 @@
+[package]
+name = "sigmaker"
+version = "0.1.0"
+authors = ["Exceptis#0001"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+crossbeam = "0.8"
+lazy_static = "1.4.0"
+iced-x86 = "1.17.0"
+log = "0.4.17"
+binaryninja = {path="../binaryninja-api-dev/rust"}
+
